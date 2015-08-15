@@ -15,18 +15,13 @@
 		<!-- Header -->
 			<section id="header" class="dark">
 				<header>
-					<h1>Welcome to どこでもPARKING</h1>
+					<h1>登録完了！<br>ありがとうございました。</b></h1>
 					
 				</header>
+
 				<footer>
-					<a href=registration.php class="button scrolly">貸したい</a>
-				</footer>
-				<footer>
-					<a href="#first" class="button scrolly">借りたい</a>
+					<a href=index.php class="button scrolly">戻る</a>
 				</footer>
 			</section>
-
-
-
 	</body>
 </html>
