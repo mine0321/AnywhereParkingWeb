@@ -1,23 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!---->
 <html>
-<head>
-	<title>PHP Starter Application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-	<table>
-		<tr>
-			<td style='width: 30%;'><img class = 'newappIcon' src='images/newapp-icon.png'>
-			</td>
-			<td>
-				<h1 id = "message"><?php echo "anywhere parking"; ?>
-</h1>
-				<p class='description'></p> Thanks forr creating a <span class="blue">PHP Starter Application</span>. Get started by reading our <a
-				href="https://www.ng.bluemix.net/docs/#starters/php/index.html#php">documentation</a>
-				or use the Start Coding guide under your app in your dashboard.
-			</td>
-		</tr>
-	</table>
-</body>
+	<head>
+		<title>AnywhereParking</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header" class="dark">
+				<header>
+					<h1>Welcome to どこでもPARKING</h1>
+					
+				</header>
+				<footer>
+					<a href="#first" class="button scrolly">貸したい</a>
+				</footer>
+				<footer>
+					<a href="#first" class="button scrolly">借りたい</a>
+				</footer>
+			</section>
+
+
+
+	</body>
 </html>
