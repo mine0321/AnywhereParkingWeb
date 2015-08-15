@@ -4,7 +4,7 @@
 <script type="text/javascript">
 // 地図
 var map = new google.maps.Map(document.getElementById("map"), {
-  zoom: 1,
+  zoom: 18,
   center: new google.maps.LatLng(35.710139, 139.810833),
   scrollwheel: false,
   mapTypeId: google.maps.MapTypeId.ROADMAP
