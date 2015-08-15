@@ -15,8 +15,8 @@ new google.maps.Marker({
   position: new google.maps.LatLng(35.710139, 139.810833),
   map: map,
   icon: new google.maps.MarkerImage(
-    "images/car.png",                     // url
-    new google.maps.Size(100,100), // size
+    "images/car.png"                   // url
+    //new google.maps.Size(100,100), // size
     //new google.maps.Point(0,0),  // origin
     //new google.maps.Point(16,16) // anchor
   )
