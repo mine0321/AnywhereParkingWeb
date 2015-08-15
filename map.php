@@ -14,6 +14,6 @@ var map = new google.maps.Map(document.getElementById("map"), {
 new google.maps.Marker({
   position: new google.maps.LatLng(35.710139, 139.810833),
   map: map,
-  icon: "v.png"
+  icon: "images/car.png"
 });
 </script>';
