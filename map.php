@@ -1,6 +1,6 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
-<div id="map" style="width:100%; height:100%></div>
+<div id="map" style="width:100%; height:100%"></div>
 <script type="text/javascript">
 // 地図
 var map = new google.maps.Map(document.getElementById("map"), {
