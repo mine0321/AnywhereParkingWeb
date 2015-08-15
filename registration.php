@@ -15,7 +15,7 @@
 		<!-- Header -->
 			<section id="header" class="dark">
 				<header>
-					<h1>登録完了！<br>ありがとうございました。</b></h1>
+					<h1>登録完了！<br>ありがとうございました</b></h1>
 					
 				</header>
 
