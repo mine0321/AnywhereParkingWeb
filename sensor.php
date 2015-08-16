@@ -5,9 +5,9 @@
 <title>AnywhereParking</title>
 <meta charset="utf-8" />
 <script type="text/javascript">
-var userdata;
-var wsUrl = '<http://anywhereparkingnodered.mybluemix.net/ws/sensor>';
-function connect() {
+function connect(){
+	var userdata;
+	var wsUrl = '<http://anywhereparkingnodered.mybluemix.net/ws/sensor>';
   socket = new WebSocket(wsUrl);
   socket.onmessage = function(e) {
     var sensorData = JSON.parse(e.data);
@@ -30,6 +30,7 @@ function connect() {
     //humidityChart.draw(humidityData, humidityOptions);
   };
 };
+
 connect();
 
 </script>
@@ -39,10 +40,7 @@ connect();
 <body>
 <script type="text/javascript">
 conect();
-
-alert("<p>parking</p>")
-
 </script>
-
+<p>parking</p>
 </body>
 </html>
