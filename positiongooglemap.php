@@ -87,7 +87,7 @@ position: myLatlng2,
   )
 });
 		//北東
-var myLatlng3 = new google.maps.LatLng(35.671570, 139.762022);
+var myLatlng3 = new google.maps.LatLng(35.671592, 139.763221);
 marker = new google.maps.Marker({
 position: myLatlng3,
  map: map,
@@ -100,7 +100,7 @@ position: myLatlng3,
   )
 });
 		//北西
-var myLatlng4 = new google.maps.LatLng(35.672106, 139.759042);
+var myLatlng4 = new google.maps.LatLng(35.672828, 139.757820);
 marker = new google.maps.Marker({
 position: myLatlng4,
  map: map,
