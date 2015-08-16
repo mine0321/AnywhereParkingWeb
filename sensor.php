@@ -32,11 +32,16 @@ function connect() {
 connect();
 
 </script>
+
 </head>
 
 <body>
+<script type="text/javascript">
+conect();
 
 <p>parking</p>
+
+</script>
 
 </body>
 </html>
