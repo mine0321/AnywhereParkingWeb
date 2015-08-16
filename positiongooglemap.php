@@ -7,6 +7,7 @@
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0 }
       #map_canvas { height: 100% }
+ 
     </style>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCnhwlkdqXWb7FFBcfQyDMvUKrRkgsK0vs&sensor=false&language=ja">
     </script>
@@ -58,12 +59,20 @@
         }
         var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
+var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  icon: new google.maps.MarkerImage(
+    "images/car.png"                   // url
+    //new google.maps.Size(100,100), // size
+    //new google.maps.Point(0,0),  // origin
+    //new google.maps.Point(16,16) // anchor
+  )
+});
 
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title:"Your position"
-        });
+
+ 
+
         
         // マーカーを追加したい場合
         // var myLatlng2 = new google.maps.LatLng(35.681382, 139.766084);
@@ -106,5 +115,25 @@ _analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics
 var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
 })();
 // ]]>
-</script></body>
+</script>
+<script type="text/javascript">
+    if (navigator.geolocation) {
+        // 現在の位置情報取得を実施
+        navigator.geolocation.getCurrentPosition(
+        // 位置情報取得成功時
+        function (pos) { 
+                
+        },
+        // 位置情報取得失敗時
+        function (pos) { 
+                var location ="<li>位置情報が取得できませんでした。</li>";
+                document.getElementById("location").innerHTML = location;
+        });
+    } else {
+        window.alert("本ブラウザではGeolocationが使えません");
+    }
+</script>
+    <ul id="location">
+    </ul>
+</body>
 </html>
