@@ -17,11 +17,12 @@ function connect() {
     //temperatureData.setValue(1, 1, sensorData.objectTemp);
     userdata.setValue(sensorData.lat);
     document.write("<p>"+userdata+"</p>");
-    //alert(userdata)
+    alert(userdata)
     document.write("<p>###############</p>");
-    //<p>#############</p>
+    <p>#############</p>
+    alert("<p>#############</p>")
     document.write("<p>"+sensordata+"</p>");
-    //alert(sensordata)
+    alert(sensordata)
     // Update humidity data
     //humidityData.setValue(0, 1, sensorData.humidity);
 
@@ -39,7 +40,7 @@ connect();
 <script type="text/javascript">
 conect();
 
-<p>parking</p>
+alert("<p>parking</p>")
 
 </script>
 
