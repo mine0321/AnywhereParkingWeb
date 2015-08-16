@@ -113,7 +113,7 @@ position: myLatlng4,
   )
 });
 	//南西
-var myLatlng5 = new google.maps.LatLng(35.669727, 139.760431);
+var myLatlng5 = new google.maps.LatLng(35.669416, 139.757406);
 marker = new google.maps.Marker({
 position: myLatlng5,
  map: map,
