@@ -70,17 +70,62 @@ var marker = new google.maps.Marker({
   )
 });
 
-
  
 
         
         // マーカーを追加したい場合
-        // var myLatlng2 = new google.maps.LatLng(35.681382, 139.766084);
-        // marker = new google.maps.Marker({
-            // position: myLatlng2,
-            // map: map,
-            // title:"Tokyo Station"
-        // });
+var myLatlng2 = new google.maps.LatLng(35.668746, 139.762668);
+marker = new google.maps.Marker({
+position: myLatlng2,
+ map: map,
+
+ icon: new google.maps.MarkerImage(
+    "images/parking.png"                   // url
+    //new google.maps.Size(100,100), // size
+    //new google.maps.Point(0,0),  // origin
+    //new google.maps.Point(16,16) // anchor
+  )
+});
+
+var myLatlng3 = new google.maps.LatLng(35.670586, 139.763195);
+marker = new google.maps.Marker({
+position: myLatlng3,
+ map: map,
+
+ icon: new google.maps.MarkerImage(
+    "images/parking.png"                   // url
+    //new google.maps.Size(100,100), // size
+    //new google.maps.Point(0,0),  // origin
+    //new google.maps.Point(16,16) // anchor
+  )
+});
+
+var myLatlng4 = new google.maps.LatLng(35.669893, 139.76105);
+marker = new google.maps.Marker({
+position: myLatlng4,
+ map: map,
+
+ icon: new google.maps.MarkerImage(
+    "images/parking.png"                   // url
+    //new google.maps.Size(100,100), // size
+    //new google.maps.Point(0,0),  // origin
+    //new google.maps.Point(16,16) // anchor
+  )
+});
+
+var myLatlng5 = new google.maps.LatLng(35.670781557896504, 139.760225);
+marker = new google.maps.Marker({
+position: myLatlng5,
+ map: map,
+
+ icon: new google.maps.MarkerImage(
+    "images/parking.png"                   // url
+    //new google.maps.Size(100,100), // size
+    //new google.maps.Point(0,0),  // origin
+    //new google.maps.Point(16,16) // anchor
+  )
+});
+       
 
         get_area_name(myLatlng);
 
