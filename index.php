@@ -22,7 +22,7 @@
 					<a href=registration.php class="button scrolly">貸したい！</a>
 				</footer>
 				<footer>
-					<a href=positiongooglemap.php class="button scrolly">借りたい！</a>
+					<a href=map.php class="button scrolly">借りたい！</a>
 				</footer>
 			</section>
 
