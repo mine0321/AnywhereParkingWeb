@@ -15,10 +15,13 @@ function connect() {
     // Update temperature data
     //temperatureData.setValue(0, 1, sensorData.temp);
     //temperatureData.setValue(1, 1, sensorData.objectTemp);
-    userdata.setValue(sensorData.lat)
-    alert(userdata)
-    <p>#############</p>
-    alert(sensordata)
+    userdata.setValue(sensorData.lat);
+    document.write("<p>"+userdata+"</p>");
+    //alert(userdata)
+    document.write("<p>###############</p>");
+    //<p>#############</p>
+    document.write("<p>"+sensordata+"</p>");
+    //alert(sensordata)
     // Update humidity data
     //humidityData.setValue(0, 1, sensorData.humidity);
 
@@ -26,12 +29,13 @@ function connect() {
     //humidityChart.draw(humidityData, humidityOptions);
   };
 };
+connect();
 
 </script>
 </head>
 
 <body>
-connect();
+
 <p>parking</p>
 
 </body>
