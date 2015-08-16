@@ -29,7 +29,7 @@ function connect() {
     //humidityChart.draw(humidityData, humidityOptions);
   };
 };
-
+connect();
 </script>
 
 </body>
