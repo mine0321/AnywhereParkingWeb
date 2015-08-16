@@ -4,9 +4,6 @@
 <head>
 <title>AnywhereParking</title>
 <meta charset="utf-8" />
-
-</head>
-<body>
 <script type="text/javascript">
 var userdata;
 var wsUrl = '<http://anywhereparkingnodered.mybluemix.net/ws/sensor>';
@@ -29,8 +26,13 @@ function connect() {
     //humidityChart.draw(humidityData, humidityOptions);
   };
 };
-connect();
+
 </script>
+</head>
+
+<body>
+connect();
+<p>parking</p>
 
 </body>
 </html>
