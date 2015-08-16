@@ -73,7 +73,7 @@ var marker = new google.maps.Marker({
  
 
         
-        // マーカーを追加したい場合
+        // マーカーを追加したい場合	　　　　南東
 var myLatlng2 = new google.maps.LatLng(35.668746, 139.762668);
 marker = new google.maps.Marker({
 position: myLatlng2,
@@ -86,8 +86,8 @@ position: myLatlng2,
     //new google.maps.Point(16,16) // anchor
   )
 });
-
-var myLatlng3 = new google.maps.LatLng(35.670586, 139.763195);
+		//北東
+var myLatlng3 = new google.maps.LatLng(35.671570, 139.762022);
 marker = new google.maps.Marker({
 position: myLatlng3,
  map: map,
@@ -99,8 +99,8 @@ position: myLatlng3,
     //new google.maps.Point(16,16) // anchor
   )
 });
-
-var myLatlng4 = new google.maps.LatLng(35.669893, 139.76105);
+		//北西
+var myLatlng4 = new google.maps.LatLng(35.672106, 139.759042);
 marker = new google.maps.Marker({
 position: myLatlng4,
  map: map,
@@ -112,8 +112,8 @@ position: myLatlng4,
     //new google.maps.Point(16,16) // anchor
   )
 });
-
-var myLatlng5 = new google.maps.LatLng(35.670781557896504, 139.760225);
+	//南西
+var myLatlng5 = new google.maps.LatLng(35.669727, 139.760431);
 marker = new google.maps.Marker({
 position: myLatlng5,
  map: map,
